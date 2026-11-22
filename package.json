@@ -1,0 +1,8 @@
+{
+  "name": "twinbly-examples",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node examples/mcp-smoke.mjs"},
+  "dependencies": {"@modelcontextprotocol/client": "2.4.0", "twinbly": "0.1.1"}
+}
